@@ -35,7 +35,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://twitter.com/programmer_dex">@programmer_dex</a> Twitter</p>
+		<p>follow on <a href="https://twitter.com/programmer_dex">@programmer_dex</a> Twitter | <a href="/about">About</a></p>
 	</footer>
 </div>
 <Loader/>

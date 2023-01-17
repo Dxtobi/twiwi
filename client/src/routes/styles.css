@@ -19,6 +19,7 @@
 }
 *{
 	font-family: 'Work Sans', sans-serif;
+    outline: none;
 }
 
 body {
@@ -265,19 +266,17 @@ select.select {
     flex-direction: column;
 }
 
-.blor-bg{
- height: 100vh;
- width: 100vw;
- position: fixed;
- flex-direction: column;
- left: 0;
- top: 0;
-}
 
-.blor-bg.s-uE2w1GCcKSRW {
+.blor-bg{
     display: flex;
     justify-content: center;
     align-items: center;
     background: #1e436d70;
     backdrop-filter: blur(9px);
+    height: 100vh;
+ width: 100vw;
+ position: fixed;
+ flex-direction: column;
+ left: 0;
+ top: 0;
 }
