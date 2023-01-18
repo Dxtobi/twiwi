@@ -18,7 +18,7 @@
 
 	<main>
 		<div class="nave-holder">
-			<a href='/' class={`link-button ${active === '/'&&'active-link'}`} on:click={()=>active='/'}>
+			<a href='/reduceToTwit' class={`link-button ${active === '/reduceToTwit'&&'active-link'}`} on:click={()=>active='/reduceToTwit'}>
 				<img src="/twitter-round.svg" class="link-image" alt=""/>
 			</a>
 			<a href='/twiimage' class={`link-button ${active === '/twiimage'&&'active-link'}`} on:click={()=>active='/twiimage'}>

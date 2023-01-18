@@ -3,13 +3,14 @@
 
 <script>
 
-import Reduce from './reduceToTwit/+page.svelte'
+
+import Landing from './landing/+page.svelte';
+
 </script>
 
 
 
 
 <div>
-	
-	<Reduce/>
+	<Landing/>
 </div>

@@ -139,14 +139,14 @@ app.post('/api/give_image', async (req, res) => {
 
         
         openai.createImage({
-            prompt: `${req.body.prompt} digital art`,
+            prompt: `${req.body.prompt}`,
             model: "image-alpha-001",
             size: "256x256",
         }).then((response) => {
            // console.log(response.data.data[0].url);
             res.status(200).json(response.data.data[0].url)
         }).catch((error) => {
-            console.log(error.message);
+            res.status(200).json({error:'something went wrong'})
         });
 
    
